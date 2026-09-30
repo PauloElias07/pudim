@@ -2,7 +2,7 @@ name: CI/CD Docker Pipeline
 
 on:
   push:
-    branches: main # Altere para a sua branch principal se necessário
+    branches: master # Altere para a sua branch principal se necessário
 
 jobs:
   build-and-push:
