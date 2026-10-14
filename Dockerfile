@@ -1,5 +1,6 @@
 FROM nginx:1.27-alpine
 
-COPY . /usr/share/nginx/html
+COPY app/ /usr/share/nginx/html/
+COPY public/ /usr/share/nginx/html/public/
 
 EXPOSE 89
