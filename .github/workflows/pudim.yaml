@@ -43,5 +43,5 @@ jobs:
           script: |
             docker pull paulo0107/pudim:latest
             docker rm -f pudim app-docker-aula || true
-            docker run -d --name pudim -p 80:89 --restart unless-stopped paulo0107/pudim:latest
+            docker run -d --name pudim -p 89:80 --restart unless-stopped paulo0107/pudim:latest
 
